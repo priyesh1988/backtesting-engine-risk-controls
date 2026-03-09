@@ -165,4 +165,3 @@ Expected result:
 ## License
 
 All Rights Reserved.
-No permission is granted to copy, modify, distribute, sublicense, or use this repository or its contents without prior written permission from the author.
