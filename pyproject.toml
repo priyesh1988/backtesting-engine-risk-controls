@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "backtesting-engine-risk-controls"
+version = "0.1.0"
+description = "Original backtesting engine with practical risk controls"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.24"
+]
+
+[project.scripts]
+backtester = "backtester.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
