@@ -1,6 +1,6 @@
 # Backtesting Engine with Risk Controls
 
-An original, from-scratch Python backtesting engine for systematic strategy research with practical risk controls.
+Backtesting engine for systematic strategy research with practical risk controls.
 
 ## Features
 - Event-driven portfolio simulation over OHLCV CSV data
